@@ -112,11 +112,15 @@ h2 {
 
 .gallery-images {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-wrap: nowrap; /* Ensures horizontal layout */
+    overflow-x: auto;  /* Allows scrolling if too wide */
     gap: 1rem;
-    padding-top: 1rem;
+    padding: 1rem 0;
 }
+
 
 .gallery figure {
     width: 140px;
