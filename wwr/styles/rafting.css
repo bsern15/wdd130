@@ -16,9 +16,21 @@ body {
     color: var(--accent1-color);
     background-color: #fff;
 }
-header, main, footer {
-    width: 840px;
-    margin: 0 auto;
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.logo {
+    height: 60px;
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 h1, h2 {
     font-family: var(--heaeding-font);
