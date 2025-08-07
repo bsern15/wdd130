@@ -20,11 +20,11 @@ body {
 }
 
 header {
-    background-color: var(--primary-color);
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 1rem;
+    background-color: #ffffff;
 }
 
 .logo {
@@ -36,6 +36,12 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .hero {
