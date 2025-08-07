@@ -115,8 +115,8 @@ h2 {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    flex-wrap: nowrap; /* Ensures horizontal layout */
-    overflow-x: auto;  /* Allows scrolling if too wide */
+    flex-wrap: nowrap;
+    overflow-x: auto; 
     gap: 1rem;
     padding: 1rem 0;
 }
