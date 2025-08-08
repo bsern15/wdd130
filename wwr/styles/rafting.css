@@ -362,6 +362,7 @@ footer {
   border: none;
   border-radius: 6px;
   text-decoration: none;
+  display: inline-block;
 }
 .trip-details {
   display: grid;
